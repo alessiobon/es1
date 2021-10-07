@@ -1,10 +1,33 @@
 <html>
-    <head>
-        <title>
-            es 1
-        </title>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>
+        es 1
+    </title>
+</head>
+
+<body>
+    <button> CLICCAMI</button>
+    <script>
+        const btn = document.getElementsByTagName("button")[0];
+        btn.onclick = () => {
+
+            if (btn.getAttribute("style") === "background-color:green") {
+                btn.removeAttribute("style");
+            } else {
+                btn.setAttribute("style", "background-color:green");
+
+
+
+
+            }
+
+
+
+
+
+        }
+    </script>
+    </button>
+
 </html>
